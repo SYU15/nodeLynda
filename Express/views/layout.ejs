@@ -1,0 +1,15 @@
+//ejs will always look for a layout file, this file determines the html
+//that the file will use, output stored in body
+
+<html>
+<title><%= title%></title>
+<style = type="text/css" media="screen">
+body {
+	font-family: "Gill Sans", Helvetica, Arial;
+}
+</style>
+<body>
+//hyphen will output body directly
+<%- body %>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<h1>All Recipes</h1>
+
+<ul>
+<% recipes.forEach(function(recipe){%>
+	<li><a href="/express/<%= recipe.url %>"><%= recipe.name %></a></li>
+<% }) %>
+</ul>
+
+<p><a href="/express/suggest">Suggest or be suggested</a></p>
